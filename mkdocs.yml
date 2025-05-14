@@ -1,0 +1,37 @@
+site_name: SimpleProject
+
+theme: material
+
+plugins:
+  - search  # 添加搜索栏
+  - awesome-pages  # 自动化目录生成工具箱
+  - glightbox  # 语法高亮工具箱
+  - git-revision-date
+
+markdown_extensions:
+  - pymdownx.highlight:  # 语法高亮
+      anchor_linenums: true  # 允许分享的时候格式完整
+      linenums: true  # 添加代码行号
+      auto_title: true  # 自动添加语言类型标题
+  - pymdownx.inlinehilite  # 支持内联代码的高亮显示
+  - pymdownx.snippets  # 允许将任意文件内容嵌入到文档，包括其他文档和源文件
+  - pymdownx.superfences  # 允许代码和内容块任意嵌套
+  - pymdownx.arithmatex:
+      generic: true  # 支持 latex 数学公式
+  - admonition # 允许使用警告和注意事项
+  - pymdownx.details  # 允许使用细节标签
+  - md_in_html  # 允许在 HTML 中使用 Markdown
+  - attr_list  # 允许添加 HTML 和 CSS 属性
+
+extra_javascript:
+  - https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-mml-chtml.js
+
+
+nav:
+  - 首页: index.md
+  - 指南:
+    - 快速开始: guides/getting-started.md
+    - 高级用法: guides/advanced.md
+  - API:
+    - 核心类: api/api.md
+  - 关于: about.md

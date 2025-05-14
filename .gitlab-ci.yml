@@ -1,0 +1,10 @@
+image: swr.cn-north-4.myhuaweicloud.com/ddn-k8s/docker.io/python:3.9.19
+
+pages:
+  script:
+    - pip install -i https://mirrors.ustc.edu.cn/pypi/web/simple mkdocs mkdocs-material mkdocs-awesome-pages-plugin mkdocs-pdf-export-plugin mkdocs-glightbox mkdocs-git-revision-date-plugin
+    - mkdocs build
+    - mv site public
+  artifacts:
+    paths:
+    - public
