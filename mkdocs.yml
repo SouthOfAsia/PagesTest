@@ -1,6 +1,13 @@
 site_name: SimpleProject
 
 theme: material
+site_url: https://SouthOfAsia.github.io/PagesTest/  # 最终访问地址
+
+# 仓库关联配置
+repo_name: SouthOfAsia/PagesTest
+repo_url: https://github.com/SouthOfAsia/PagesTest
+edit_uri: ""  # 关闭编辑功能（可选）
+
 
 plugins:
   - search  # 添加搜索栏
