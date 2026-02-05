@@ -1,6 +1,7 @@
 # 先看结论
 访问http://wanyanan.gitlabpage.local/mkdocs_template/ （公司内网） 以查看效果
-https://southofasia.github.io/PagesTest/（外网）
+（外网） https://southofasia.github.io/PagesTest/
+
 # Mkdocs Template
 
 本项目为一个mkdocs模板，可以快速搭建一个基于mkdocs的文档网站。
